@@ -1,0 +1,49 @@
+Template: config-testbox/dut
+Type: string
+Default: dut
+_Description: name of the device under test:
+ Please add the name of the device under test here.
+
+Template: config-testbox/location
+Type: string
+Default: UM
+_Description: default location of the testsystem:
+ Please add the default location of the testsystem.
+
+Template: config-testbox/serialport
+Type: string
+Default: /dev/ttyUSB0
+_Description: serial port connected to the device under test:
+ Please add the serial port connected to the device under test here.
+
+Template: config-testbox/serialspeed
+Type: select
+Default: 115200
+Choices: 115200, 56700, 38400, 19200, 9600
+_Description: baudrate of serial port connected to the device under test:
+ Please add the baudrate of the serial port connected to the device under
+ test here.
+
+Template: config-testbox/serialwidth
+Type: select
+Default: 8DATABITS
+Choices: 8DATABITS, 7DATABITS
+_Description: data width of serial port connected to the device under test:
+ Please add the data width of the serial port connected to the device under
+ test here.
+
+Template: config-testbox/serialparity
+Type: select
+Default: NONE
+Choices: NONE, EVEN, ODD
+_Description: parity of serial port connected to the device under test:
+ Please add the parity of the serial port connected to the device under
+ test here.
+
+Template: config-testbox/serialstop
+Type: select
+Default: 1STOPBIT
+Choices: 1STOPBIT, 2STOPBIT
+_Description: stopbit count of serial port connected to the device under test:
+ Please add the stopbit count of the serial port connected to the device under
+ test here.

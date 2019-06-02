@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the config-testbox package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: config-testbox\n"
+"Report-Msgid-Bugs-To: config-testbox@packages.debian.org\n"
+"POT-Creation-Date: 2019-06-03 10:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Type: string
+#. Description
+#: ../config-testbox.templates:1001
+msgid "name of the device under test:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../config-testbox.templates:1001
+msgid "Please add the name of the device under test here."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../config-testbox.templates:2001
+msgid "default location of the testsystem:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../config-testbox.templates:2001
+msgid "Please add the default location of the testsystem."
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../config-testbox.templates:3001
+msgid "serial port connected to the device under test:"
+msgstr ""
+
+#. Type: string
+#. Description
+#: ../config-testbox.templates:3001
+msgid "Please add the serial port connected to the device under test here."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../config-testbox.templates:4001
+msgid "baudrate of serial port connected to the device under test:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../config-testbox.templates:4001
+msgid ""
+"Please add the baudrate of the serial port connected to the device under "
+"test here."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../config-testbox.templates:5001
+msgid "data width of serial port connected to the device under test:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../config-testbox.templates:5001
+msgid ""
+"Please add the data width of the serial port connected to the device under "
+"test here."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../config-testbox.templates:6001
+msgid "parity of serial port connected to the device under test:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../config-testbox.templates:6001
+msgid ""
+"Please add the parity of the serial port connected to the device under test "
+"here."
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../config-testbox.templates:7001
+msgid "stopbit count of serial port connected to the device under test:"
+msgstr ""
+
+#. Type: select
+#. Description
+#: ../config-testbox.templates:7001
+msgid ""
+"Please add the stopbit count of the serial port connected to the device "
+"under test here."
+msgstr ""

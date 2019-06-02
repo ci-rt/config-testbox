@@ -1,0 +1,20 @@
+#!/bin/sh
+set -e
+
+PKG=config-testbox
+
+if [ "$1" = remove ] ; then
+    for f in hostname ser2net.conf
+    do
+	[ -L /etc/$f ] && rm /etc/$f
+	dpkg-divert --remove --package ${PKG} --rename \
+		    --divert /etc/$f.distrib /etc/$f
+    done
+fi
+
+invoke-rc.d ser2net stop
+invoke-rc.d r4dd stop
+
+#DEBHELPER#
+
+exit 0
