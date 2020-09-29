@@ -2,8 +2,9 @@ Source: config-testbox
 Section: metapackages
 Priority: optional
 Maintainer: Benedikt Spranger <b.spranger@linutronix.de>
-Build-Depends: debhelper (>= 9), po-debconf
-Standards-Version: 4.1.3
+Build-Depends: debhelper-compat (= 12), po-debconf
+Standards-Version: 4.5.0
+Rules-Requires-Root: no
 Homepage: https://github.com/ci-rt/testbox-shield
 Vcs-Browser: https://github.com/ci-rt/config-testbox
 Vcs-Git: https://github.com/ci-rt/config-testbox.git
