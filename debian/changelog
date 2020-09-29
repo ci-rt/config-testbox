@@ -1,3 +1,12 @@
+config-testbox (2) unstable; urgency=medium
+
+  * Team upload.
+  * postinst: start r4dd to generate database
+  * debian: Raise compat and standards versions
+  * postrm: Don't fail on services not starting
+
+ -- Bastian Germann <bage@linutronix.de>  Tue, 29 Sep 2020 14:30:42 +0200
+
 config-testbox (1) unstable; urgency=medium
 
   * Initial Release.
