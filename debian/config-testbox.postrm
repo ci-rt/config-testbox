@@ -8,8 +8,8 @@ if [ "$1" = remove ] ; then
     rm -f /etc/testbox/ser2net.conf
 fi
 
-invoke-rc.d ser2net start
-invoke-rc.d r4dd start
+invoke-rc.d ser2net start || true
+invoke-rc.d r4dd start || true
 
 #DEBHELPER#
 
