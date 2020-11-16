@@ -1,3 +1,9 @@
+config-testbox (3) unstable; urgency=medium
+
+  * debian: Remove r4d configuration
+
+ -- Bastian Germann <bage@linutronix.de>  Mon, 16 Nov 2020 18:30:28 +0100
+
 config-testbox (2) unstable; urgency=medium
 
   * Team upload.
