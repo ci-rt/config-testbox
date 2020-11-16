@@ -27,13 +27,6 @@ SERPARITY="$RET"
 db_get "$PKG/serialstop"
 SERSTOP="$RET"
 
-invoke-rc.d r4dd start
-
-r4dcfg --add-rack "tb-$DUT" "$LOCATION"
-r4dcfg --add-power "tb-$DUT" "testbox" "tb-$DUT"
-r4dcfg --add-serial "tb-$DUT" "testbox" "tb-$DUT"
-r4dcfg --add-board "tb-$DUT" "1" "$DUT"
-
 echo "tb-$DUT" > /etc/testbox/hostname
 
 sed -e "s%@SERPORT@%$SERPORT%g"		\
@@ -56,7 +49,6 @@ if [ "$1" = configure ] ; then
 fi
 
 invoke-rc.d ser2net start
-invoke-rc.d r4dd restart
 
 #DEBHELPER#
 

@@ -9,7 +9,6 @@ if [ "$1" = remove ] ; then
 fi
 
 invoke-rc.d ser2net start || true
-invoke-rc.d r4dd start || true
 
 #DEBHELPER#
 
